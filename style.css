@@ -1,0 +1,57 @@
+body {
+    color: black;
+    background-color: #020208dc; 
+    position: relative;
+    display: flex;
+   
+}
+    #container {
+        margin-top: 10px;
+        position:absolute;
+        left:20%;
+        background-color:  #050543e9;
+        width: 40%;
+        color: #B3C6DE;  
+        border-radius: 10px; 
+      
+    }
+    h1 {
+        margin-left: 15px;
+        font-size: 20px;
+        font-family: arial;
+    }
+    p {
+        margin-left: 15px;
+        margin-block-end: 0;
+        font-family: arial;
+    }
+    input{
+        margin-left: 15px;
+        width: 85%;
+        height: 21px;
+        border-radius: 15;
+        border-style: solid;
+    }
+    #enviar{
+        background-color: purple;
+        width: 88%;
+        color: white;
+        height: 30px;
+    }
+    .correcto{
+        background-image: url(images/success-icon.svg);
+        background-repeat: no-repeat;
+       background-position: right;
+       border-color:#82FA58 #82FA58;
+    }
+    .erroneo{
+        background-image: url(images/error-icon.svg);
+        background-repeat: no-repeat;
+       background-position: right;
+       border-color: red red;
+    }       
+    .vacio{
+        margin-block-start: 0;
+        color: red;
+        font-size: xx-small;
+    }
